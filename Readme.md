@@ -2,6 +2,7 @@
 
 * Студент: [Александр Древс](https://up.htmlacademy.ru/htmlcss/39/user/1299161).
 * Наставник: [Александр Древс](https://up.htmlacademy.ru/htmlcss/39/user/1299161).
+* Проект: [Sedona](https://shurenta.github.io/1299161-sedona-39/).
 
 ---
 
