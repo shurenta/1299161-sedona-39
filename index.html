@@ -9,7 +9,7 @@
   <body>
 
     <header class="page-header" data-test="header">
-      <img src="#" alt="Логотип">
+      <img src="#" alt="Логотип города Седона">
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item"><a class="navigation-link" href="#">Главная</a></li>
@@ -17,11 +17,11 @@
           <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
-      <form class="search" method="post" action="https://echo.htmlacademy.ru/">
-        <input type="text">
+      <form class="search" method="get" action="https://echo.htmlacademy.ru/">
+        <input type="text" name="search">
       </form>
       <span class="likes">12</span>
-      <a class="btn link-catalog" href="catalog.html">Хочу сюда!</a>
+      <a class="button link-catalog" href="catalog.html">Хочу сюда!</a>
     </header>
 
     <main class="main-index" data-test="main">
@@ -39,7 +39,7 @@
           <li>
             <h3 class="сity-description-title">Настоящий городок</h3>
             <p class="сity-description-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="сity-description-img" src="#" alt="Дом на котором висят флаги, на заднем фоне горы">
+            <img class="сity-description-image" src="#" alt="Дом на котором висят флаги, на заднем фоне горы">
           </li>
           <li>
             <h3 class="сity-description-title">Небольшая площадь</h3>
@@ -54,7 +54,7 @@
             <p class="сity-description-text">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li>
-            <img class="сity-description-img" src="#" alt="Мост дьявола">
+            <img class="сity-description-image" src="#" alt="Мост дьявола">
             <h3 class="сity-description-title">Там есть мост дьявола</h3>
             <p class="сity-description-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -84,17 +84,18 @@
       <section class="search" data-test="search">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
         <b class="search-description">Заинтересовались?</b>
-        <p class="search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+        <p class="search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+          Седоне
         </p>
-        <a class="btn search-btn" href="#">поиск гостинице в Седоне</a>
+        <a class="button search-button" href="#">поиск гостинице в Седоне</a>
       </section>
 
       <section class="subscription" data-test="subscribe">
         <h2 class="visually-hidden">Подпишись!</h2>
         <b class="subscription-description">Подпишитесь на рассылку</b>
         <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <form class="subscription-form" method="post" action="https://echo.htmlacademy.ru/">
-          <input type="email" placeholder="Ваш e-mail">
+        <form class="subscription-form" method="get" action="https://echo.htmlacademy.ru/">
+          <input type="email" name="email" placeholder="Ваш e-mail">
           <input type="submit" value="Подписаться">
         </form>
       </section>
@@ -106,25 +107,27 @@
         <h2 class="visually-hidden">Наши сети</h2>
         <ul class="social-list">
           <li class="social-item">
-            <a class="social-btn" href="https://vk.com/htmlacademy"><span class="visually-hidden">В контакте</span></a>
+            <a class="social-button" href="https://vk.com/htmlacademy"><span class="visually-hidden">В
+                контакте</span></a>
           </li>
           <li class="social-item">
-            <a class="social-btn" href="https://t.me/htmlacademy "><span class="visually-hidden">Телеграм</span></a>
+            <a class="social-button" href="https://t.me/htmlacademy "><span class="visually-hidden">Телеграм</span></a>
           </li>
           <li class="social-item">
-            <a class="social-btn" href="https://www.youtube.com/user/htmlacademyru"><span class="visually-hidden">Ютуб</span></a>
+            <a class="social-button" href="https://www.youtube.com/user/htmlacademyru"><span
+                class="visually-hidden">Ютуб</span></a>
           </li>
         </ul>
       </section>
 
       <section class="phone">
         <h2 class="visually-hidden">Телефон</h2>
-        <b class="phone-description">+7 (812) 812-12-12</b>
+        <a href="tel:+78128121212" class="phone-description">+7 (812) 812-12-12</a>
       </section>
 
       <section class="authors">
         <h2 class="visually-hidden">Создатели сайта</h2>
-        <img class="authors-img" src="https://htmlacademy.ru/" alt="логотип HTML academy">
+        <img class="authors-image" src="https://htmlacademy.ru/" alt="логотип HTML academy">
       </section>
     </footer>
 
