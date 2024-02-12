@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "PT SANS";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT SANS";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT SANS", sans-serif;
+  font-size: 18px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.navigation {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #000000;
+  text-decoration: none;
+}
+
+.preview {
+  background-image: url(../images/index/preview-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #756157;
+  text-align: center;
+}
+
+
+/* section сity-description */
+
+.сity-description-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.сity-description-item {
+  background-color: rgba(131,	179,	211, 0.2);
+}
+
+.dark-background-item {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.lite-background-item {
+  background-color: rgba(131,	179,	211, 0.3);
+}
+
+.dark-background-item .сity-description-title {
+  color: #ffffff;
+}
+
+.сity-description-text {
+  margin: 0;
+}
+
+
+/* section service" */
+.service-text {
+  margin: 0;
+}
+
+.service-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.service-item-text {
+  margin: 0;
+}
+
+/* section subscription */
+
+.subscription {
+  background-image: url(../images/index/subscription-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.subscription .subscription-description, .subscription-text {
+  color: #ffffff;
+}
+
+.subscription .subscription-button {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.subscription-form input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.phone-description {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 10px;
+  color: #000000;
+}
+
+
+/* section main-inner-header */
+
+.wrapper-form {
+  background-image: url(../images/catalog/filter-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #ffffff;
+}
+
+.inner-header {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 30px;
+}
+
+.inner-navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  line-height: 31px;
+}
+
+.inner-navigation-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+/*sedtion catalog-hotels-form */
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.catalog-filter-list {
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/* section catalog-rads */
+
+.cards-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card-item-link {
+  text-decoration: none;
+}
+
+.select-control {
+  font-size: 18px;
+  line-height: 17px;
+  color: #333333;
+}
+
+.card-rating {
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.catalog-pagination-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+}
+
+.pagination-link-aktive {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+/* общие стили для кнопок -кнопок ссылок */
+
+.button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Прячем элементы со страницы */
+
+.visually-hidden {
+  display: none;
+}
+
+/* Общие стили для h3 */
+.header-h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+
+/* общие стили для крупного текста тег b */
+
+.basic-header {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+/* общие стили для среднего текста тег p */
+
+.text {
+  margin: 0;
+  font-size: 22px;
+  line-height: 18px;
+}

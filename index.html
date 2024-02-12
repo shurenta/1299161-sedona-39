@@ -4,24 +4,34 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
 
     <header class="page-header" data-test="header">
-      <img src="images/sedona-logo.svg" width="140" height="70" alt="Логотип города Седона">
+      <a href="index.html" aria-current="page">
+        <img src="images/sedona-logo.svg" width="140" height="70" alt="Логотип города Седона">
+      </a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li class="navigation-item"><a class="navigation-link" href="#">Главная</a></li>
+          <li class="navigation-item"><a class="navigation-link navigation-link-active" href="#">Главная</a></li>
           <li class="navigation-item"><a class="navigation-link" href="#">О седоне</a></li>
           <li class="navigation-item"><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
         </ul>
+
+        <ul class="navigation-list-user">
+          <li class="navigation-list-user">
+            <a href="#"><span class="visually-hidden">Поиск</span></a>
+          </li>
+          <li class="navigation-item user">
+            <a href="#"><span class="visually-hidden">Понравившиеся отели</span></a>
+          </li>
+          <li class="navigation-item-user">
+            <a class="button" href="catalog.html">Хочу сюда!</a>
+          </li>
+        </ul>
       </nav>
-      <form class="search" method="get" action="https://echo.htmlacademy.ru/">
-        <input type="text" name="search">
-      </form>
-      <span class="likes">12</span>
-      <a class="button link-catalog" href="catalog.html">Хочу сюда!</a>
     </header>
 
     <main class="main-index" data-test="main">
@@ -29,54 +39,54 @@
 
       <section class="preview" data-test="hero">
         <h2 class="visually-hidden">Приимущетсва города</h2>
-        <img src="images/index/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону!">
-        <b class="preview-description">Седона — небольшой городок в Аризоне,заслуживающий большего!</b>
-        <p class="preview-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <img src="images/index/welcome.svg" width="458" height="352" alt="Вид на горы и скалы">
+        <b class="basic-header preview-description">Седона — небольшой городок в Аризоне,заслуживающий большего!</b>
+        <p class="text preview-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
       <section class="сity-description" data-test="advantages">
         <h2 class="visually-hidden">Описание города</h2>
-        <ul>
-          <li>
-            <h3 class="сity-description-title">Настоящий городок</h3>
+        <ul class="сity-description-list">
+          <li class="сity-description-item dark-background-item">
+            <h3 class="header-h3 сity-description-title">Настоящий городок</h3>
             <p class="сity-description-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="сity-description-image" src="images/index/city.jpg" width="800" height="385" alt="Дом на котором висят флаги, на заднем фоне горы">
           </li>
-          <li>
-            <h3 class="сity-description-title">Небольшая площадь</h3>
+          <li class="сity-description-item">
+            <h3 class="header-h3 сity-description-title">Небольшая площадь</h3>
             <p class="сity-description-text">Все достопримечательности находятся очень близко</p>
           </li>
-          <li>
-            <h3 class="сity-description-title">Красивая дорога</h3>
+          <li class="сity-description-item lite-background-item">
+            <h3 class="header-h3 сity-description-title">Красивая дорога</h3>
             <p class="сity-description-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li>
-            <h3 class="сity-description-title">Мало туристов</h3>
+          <li class="сity-description-item">
+            <h3 class="header-h3 сity-description-title">Мало туристов</h3>
             <p class="сity-description-text">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li>
+          <li class="сity-description-item dark-background-item">
             <img class="сity-description-image" src="images/index/devil's-bridge.jpg" width="800" height="385" alt="Мост дьявола">
-            <h3 class="сity-description-title">Там есть мост дьявола</h3>
+            <h3 class="header-h3 сity-description-title">Там есть мост дьявола</h3>
             <p class="сity-description-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
       </section>
 
       <section class="service" data-test="advantages">
-        <h2 class="visually-hidden">Обслуживание</h2>
-        <b class="service-description">Приезжайте в Седону отдохнуть в комфорте и уюте!</b>
-        <p class="service-text">Опытный персонал и качественное обслуживание!</p>
+        <h2 class="visually-hidden">Сервис и обслуживание в городе</h2>
+        <b class="basic-header service-description">Приезжайте в Седону отдохнуть в комфорте и уюте!</b>
+        <p class="text service-text">Опытный персонал и качественное обслуживание!</p>
         <ul class="service-list">
           <li class="service-item">
-            <h3 class="service-item-title">Жильё</h3>
+            <h3 class="header-h3 service-item-title">Жильё</h3>
             <p class="service-item-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </li>
           <li class="service-item">
-            <h3 class="service-item-title">Еда</h3>
+            <h3 class="header-h3 service-item-title">Еда</h3>
             <p class="service-item-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
           <li class="service-item">
-            <h3 class="service-item-title">Сувениры</h3>
+            <h3 class="header-h3 service-item-title">Сувениры</h3>
             <p class="service-item-text">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
@@ -84,20 +94,21 @@
 
       <section class="search" data-test="search">
         <h2 class="visually-hidden">Поиск гостиницы</h2>
-        <b class="search-description">Заинтересовались?</b>
-        <p class="search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+        <b class="basic-header search-description">Заинтересовались?</b>
+        <p class="text search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
           Седоне
         </p>
-        <a class="button search-button" href="#">поиск гостинице в Седоне</a>
+        <a class="button search-button" href="#">поиск гостиницы в Седоне</a>
       </section>
 
       <section class="subscription" data-test="subscribe">
         <h2 class="visually-hidden">Подпишись!</h2>
-        <b class="subscription-description">Подпишитесь на рассылку</b>
-        <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <b class="basic-header subscription-description">Подпишитесь на рассылку</b>
+        <p class="text subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscription-form" method="get" action="https://echo.htmlacademy.ru/">
-          <input type="email" name="email" placeholder="Ваш e-mail">
-          <input type="submit" value="Подписаться">
+          <label class="visually-hidden" for="email">Укажите ваш эмаил</label>
+          <input type="email" name="user-email" placeholder="Ваш e-mail" id="email">
+          <button class="button subscription-button" type="submit" value="Подписаться">
         </form>
       </section>
     </main>
